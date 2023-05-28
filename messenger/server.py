@@ -13,7 +13,7 @@ def hello():
 
 @app.route("/status")
 def status():
-    stat = 'Статус: True, Приложение: Георгес-Мессенджер, Дата: ' + str(datetime.now().strftime('%d.%m.%Y')) + ', Время: ' + str(datetime.now().strftime('%H:%M:%S')) + ',  Всего сообщений: ' + str(len(data_base)) +',  Пользователи: ' + str(len(set([data_base[i]['name'] for i in range(len(data_base))])))
+    stat = 'Статус: True, Приложение: Эрик-Мессенджер, Дата: ' + str(datetime.now().strftime('%d.%m.%Y')) + ', Время: ' + str(datetime.now().strftime('%H:%M:%S')) + ',  Всего сообщений: ' + str(len(data_base)) +',  Пользователи: ' + str(len(set([data_base[i]['name'] for i in range(len(data_base))])))
     # return {
     #     'status': True,
     #     'name': 'Messenger',
