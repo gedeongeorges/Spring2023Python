@@ -239,4 +239,8 @@ class SudokuTestCase(unittest.TestCase):
         self.assertEqual(expected_unknown, actual_unknown)
         solution = sudoku.solve(grid)
         solved = sudoku.check_solution(solution)
+<<<<<<< HEAD
         self.assertTrue(solved)
+=======
+        self.assertTrue(solved)
+>>>>>>> origin/main
